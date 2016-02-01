@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42283E631C5C430D00408702 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42283E621C5C430D00408702 /* AppDelegate.swift */; };
+		42283E651C5C430D00408702 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42283E641C5C430D00408702 /* ViewController.swift */; };
+		42283E681C5C430D00408702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42283E661C5C430D00408702 /* Main.storyboard */; };
+		42283E6A1C5C430D00408702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42283E691C5C430D00408702 /* Assets.xcassets */; };
+		42283E6D1C5C430D00408702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42283E6B1C5C430D00408702 /* LaunchScreen.storyboard */; };
+		42283E791C5C5C1500408702 /* HospitalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42283E781C5C5C1500408702 /* HospitalViewController.swift */; };
+		42283E7B1C5C5F4A00408702 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42283E7A1C5C5F4A00408702 /* Alamofire.framework */; };
+		42283E7D1C5C5F4F00408702 /* Spring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42283E7C1C5C5F4F00408702 /* Spring.framework */; };
+		42283E7F1C5C6AC700408702 /* NearByViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42283E7E1C5C6AC700408702 /* NearByViewController.swift */; };
+		42283E821C5C705200408702 /* HospitalTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42283E801C5C705200408702 /* HospitalTableCell.swift */; };
+		42283E831C5C705200408702 /* HospitalTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42283E811C5C705200408702 /* HospitalTableCell.xib */; };
+		42283E861C5C846C00408702 /* CustomField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42283E851C5C846C00408702 /* CustomField.swift */; };
+		42283E881C5C8A9900408702 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42283E871C5C8A9900408702 /* CoreLocation.framework */; };
+		42283E8A1C5C987E00408702 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42283E891C5C987E00408702 /* Charts.framework */; };
+		42283E8E1C5CF16600408702 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42283E8D1C5CF16600408702 /* Hospital.swift */; };
+		42283E911C5CF58400408702 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42283E901C5CF58400408702 /* ConnectionManager.swift */; };
+		42283E931C5D043200408702 /* UNAlertView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42283E921C5D043200408702 /* UNAlertView.framework */; };
+		42283E9A1C5D1F6C00408702 /* DetailedNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42283E981C5D1F6C00408702 /* DetailedNameCell.swift */; };
+		42283E9B1C5D1F6C00408702 /* DetailedNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42283E991C5D1F6C00408702 /* DetailedNameCell.xib */; };
+		42283E9E1C5D210600408702 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42283E9C1C5D210600408702 /* DetailViewController.swift */; };
+		42283EA21C5D23A000408702 /* AddressViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42283EA01C5D23A000408702 /* AddressViewCell.swift */; };
+		42283EA31C5D23A000408702 /* AddressViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42283EA11C5D23A000408702 /* AddressViewCell.xib */; };
+		42283EA61C5D2C7E00408702 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42283EA41C5D2C7E00408702 /* ChartsViewController.swift */; };
+		42283EA71C5D2C7E00408702 /* ChartsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42283EA51C5D2C7E00408702 /* ChartsViewController.xib */; };
+		42283EA91C5D2E6900408702 /* Averages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42283EA81C5D2E6900408702 /* Averages.swift */; };
+		50989E09F09EE71C22BC7A7B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B31A6BBAA1A3BB54AD6C916 /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42283E5F1C5C430D00408702 /* Near Care.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Near Care.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42283E621C5C430D00408702 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42283E641C5C430D00408702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42283E671C5C430D00408702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42283E691C5C430D00408702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42283E6C1C5C430D00408702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42283E6E1C5C430D00408702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42283E751C5C4D9300408702 /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+		42283E781C5C5C1500408702 /* HospitalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalViewController.swift; sourceTree = "<group>"; };
+		42283E7A1C5C5F4A00408702 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		42283E7C1C5C5F4F00408702 /* Spring.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spring.framework; path = "Pods/../build/Debug-iphoneos/Spring.framework"; sourceTree = "<group>"; };
+		42283E7E1C5C6AC700408702 /* NearByViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearByViewController.swift; sourceTree = "<group>"; };
+		42283E801C5C705200408702 /* HospitalTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalTableCell.swift; sourceTree = "<group>"; };
+		42283E811C5C705200408702 /* HospitalTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HospitalTableCell.xib; sourceTree = "<group>"; };
+		42283E851C5C846C00408702 /* CustomField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomField.swift; sourceTree = "<group>"; };
+		42283E871C5C8A9900408702 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		42283E891C5C987E00408702 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "Pods/../build/Debug-iphoneos/Charts.framework"; sourceTree = "<group>"; };
+		42283E8D1C5CF16600408702 /* Hospital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
+		42283E901C5CF58400408702 /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		42283E921C5D043200408702 /* UNAlertView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UNAlertView.framework; path = "Pods/../build/Debug-iphoneos/UNAlertView.framework"; sourceTree = "<group>"; };
+		42283E981C5D1F6C00408702 /* DetailedNameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedNameCell.swift; sourceTree = "<group>"; };
+		42283E991C5D1F6C00408702 /* DetailedNameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailedNameCell.xib; sourceTree = "<group>"; };
+		42283E9C1C5D210600408702 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		42283EA01C5D23A000408702 /* AddressViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressViewCell.swift; sourceTree = "<group>"; };
+		42283EA11C5D23A000408702 /* AddressViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressViewCell.xib; sourceTree = "<group>"; };
+		42283EA41C5D2C7E00408702 /* ChartsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		42283EA51C5D2C7E00408702 /* ChartsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartsViewController.xib; sourceTree = "<group>"; };
+		42283EA81C5D2E6900408702 /* Averages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Averages.swift; sourceTree = "<group>"; };
+		5B31A6BBAA1A3BB54AD6C916 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BCA2F0E5F40AEFF69BC9B3 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E810C737CA92E1D6EFBCBD1C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42283E5C1C5C430D00408702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42283E931C5D043200408702 /* UNAlertView.framework in Frameworks */,
+				42283E8A1C5C987E00408702 /* Charts.framework in Frameworks */,
+				42283E881C5C8A9900408702 /* CoreLocation.framework in Frameworks */,
+				42283E7D1C5C5F4F00408702 /* Spring.framework in Frameworks */,
+				42283E7B1C5C5F4A00408702 /* Alamofire.framework in Frameworks */,
+				50989E09F09EE71C22BC7A7B /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42283E561C5C430D00408702 = {
+			isa = PBXGroup;
+			children = (
+				42283E611C5C430D00408702 /* Near Care */,
+				42283E601C5C430D00408702 /* Products */,
+				6B05667D591BF0CAD29D6C30 /* Pods */,
+				A1E323C41D8ED93BAECD57E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42283E601C5C430D00408702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42283E5F1C5C430D00408702 /* Near Care.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42283E611C5C430D00408702 /* Near Care */ = {
+			isa = PBXGroup;
+			children = (
+				42283E621C5C430D00408702 /* AppDelegate.swift */,
+				42283E8F1C5CF16F00408702 /* Model */,
+				42283E841C5C706500408702 /* Views */,
+				42283E761C5C51AE00408702 /* Controllers */,
+				42283E771C5C51B800408702 /* Xibs */,
+				42283E741C5C4D7A00408702 /* Suuporting files */,
+				42283E6B1C5C430D00408702 /* LaunchScreen.storyboard */,
+			);
+			path = "Near Care";
+			sourceTree = "<group>";
+		};
+		42283E741C5C4D7A00408702 /* Suuporting files */ = {
+			isa = PBXGroup;
+			children = (
+				42283E691C5C430D00408702 /* Assets.xcassets */,
+				42283E751C5C4D9300408702 /* Comfortaa-Regular.ttf */,
+				42283E6E1C5C430D00408702 /* Info.plist */,
+			);
+			name = "Suuporting files";
+			sourceTree = "<group>";
+		};
+		42283E761C5C51AE00408702 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				42283EA41C5D2C7E00408702 /* ChartsViewController.swift */,
+				42283E641C5C430D00408702 /* ViewController.swift */,
+				42283E7E1C5C6AC700408702 /* NearByViewController.swift */,
+				42283E781C5C5C1500408702 /* HospitalViewController.swift */,
+				42283E9C1C5D210600408702 /* DetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		42283E771C5C51B800408702 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				42283EA11C5D23A000408702 /* AddressViewCell.xib */,
+				42283EA51C5D2C7E00408702 /* ChartsViewController.xib */,
+				42283E991C5D1F6C00408702 /* DetailedNameCell.xib */,
+				42283E811C5C705200408702 /* HospitalTableCell.xib */,
+				42283E661C5C430D00408702 /* Main.storyboard */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		42283E841C5C706500408702 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42283EA01C5D23A000408702 /* AddressViewCell.swift */,
+				42283E981C5D1F6C00408702 /* DetailedNameCell.swift */,
+				42283E851C5C846C00408702 /* CustomField.swift */,
+				42283E801C5C705200408702 /* HospitalTableCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		42283E8F1C5CF16F00408702 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42283EA81C5D2E6900408702 /* Averages.swift */,
+				42283E8D1C5CF16600408702 /* Hospital.swift */,
+				42283E901C5CF58400408702 /* ConnectionManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6B05667D591BF0CAD29D6C30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E810C737CA92E1D6EFBCBD1C /* Pods.debug.xcconfig */,
+				B9BCA2F0E5F40AEFF69BC9B3 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1E323C41D8ED93BAECD57E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42283E921C5D043200408702 /* UNAlertView.framework */,
+				42283E891C5C987E00408702 /* Charts.framework */,
+				42283E871C5C8A9900408702 /* CoreLocation.framework */,
+				42283E7C1C5C5F4F00408702 /* Spring.framework */,
+				42283E7A1C5C5F4A00408702 /* Alamofire.framework */,
+				5B31A6BBAA1A3BB54AD6C916 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42283E5E1C5C430D00408702 /* Near Care */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42283E711C5C430D00408702 /* Build configuration list for PBXNativeTarget "Near Care" */;
+			buildPhases = (
+				C32CB3F94D7846E3CAD714E3 /* Check Pods Manifest.lock */,
+				42283E5B1C5C430D00408702 /* Sources */,
+				42283E5C1C5C430D00408702 /* Frameworks */,
+				42283E5D1C5C430D00408702 /* Resources */,
+				42DC82B14BDDDB43834D6ECF /* Embed Pods Frameworks */,
+				5786C557DDB2D1573EE58052 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Near Care";
+			productName = "Near Care";
+			productReference = 42283E5F1C5C430D00408702 /* Near Care.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42283E571C5C430D00408702 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = adavers;
+				TargetAttributes = {
+					42283E5E1C5C430D00408702 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7R8U9B2AP5;
+					};
+				};
+			};
+			buildConfigurationList = 42283E5A1C5C430D00408702 /* Build configuration list for PBXProject "Near Care" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42283E561C5C430D00408702;
+			productRefGroup = 42283E601C5C430D00408702 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42283E5E1C5C430D00408702 /* Near Care */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42283E5D1C5C430D00408702 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42283E9B1C5D1F6C00408702 /* DetailedNameCell.xib in Resources */,
+				42283EA31C5D23A000408702 /* AddressViewCell.xib in Resources */,
+				42283EA71C5D2C7E00408702 /* ChartsViewController.xib in Resources */,
+				42283E6D1C5C430D00408702 /* LaunchScreen.storyboard in Resources */,
+				42283E6A1C5C430D00408702 /* Assets.xcassets in Resources */,
+				42283E831C5C705200408702 /* HospitalTableCell.xib in Resources */,
+				42283E681C5C430D00408702 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42DC82B14BDDDB43834D6ECF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5786C557DDB2D1573EE58052 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C32CB3F94D7846E3CAD714E3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42283E5B1C5C430D00408702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42283E9E1C5D210600408702 /* DetailViewController.swift in Sources */,
+				42283EA21C5D23A000408702 /* AddressViewCell.swift in Sources */,
+				42283E651C5C430D00408702 /* ViewController.swift in Sources */,
+				42283E7F1C5C6AC700408702 /* NearByViewController.swift in Sources */,
+				42283E631C5C430D00408702 /* AppDelegate.swift in Sources */,
+				42283E9A1C5D1F6C00408702 /* DetailedNameCell.swift in Sources */,
+				42283EA91C5D2E6900408702 /* Averages.swift in Sources */,
+				42283E911C5CF58400408702 /* ConnectionManager.swift in Sources */,
+				42283E861C5C846C00408702 /* CustomField.swift in Sources */,
+				42283E8E1C5CF16600408702 /* Hospital.swift in Sources */,
+				42283EA61C5D2C7E00408702 /* ChartsViewController.swift in Sources */,
+				42283E821C5C705200408702 /* HospitalTableCell.swift in Sources */,
+				42283E791C5C5C1500408702 /* HospitalViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42283E661C5C430D00408702 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42283E671C5C430D00408702 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42283E6B1C5C430D00408702 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42283E6C1C5C430D00408702 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42283E6F1C5C430D00408702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42283E701C5C430D00408702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42283E721C5C430D00408702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E810C737CA92E1D6EFBCBD1C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "Near Care/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adavers.Near-Care";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42283E731C5C430D00408702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9BCA2F0E5F40AEFF69BC9B3 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "Near Care/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adavers.Near-Care";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42283E5A1C5C430D00408702 /* Build configuration list for PBXProject "Near Care" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42283E6F1C5C430D00408702 /* Debug */,
+				42283E701C5C430D00408702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42283E711C5C430D00408702 /* Build configuration list for PBXNativeTarget "Near Care" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42283E721C5C430D00408702 /* Debug */,
+				42283E731C5C430D00408702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42283E571C5C430D00408702 /* Project object */;
+}

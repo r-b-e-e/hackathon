@@ -1,0 +1,29 @@
+PODS:
+  - Alamofire (3.1.5)
+  - Charts (2.1.6)
+  - Spring (1.0.3)
+  - UNAlertView (0.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - Charts (~> 2.1)
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
+  - UNAlertView
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift2
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 18d5c7b74489de8044e34767f856d1e574f0820e
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  Charts: 5e1e5ac23898e5b09d226a2fc3e9d86bc281937e
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  UNAlertView: fc58ca04357a5e8e7e1eb2803fc8152a89e9ce39
+
+COCOAPODS: 0.39.0

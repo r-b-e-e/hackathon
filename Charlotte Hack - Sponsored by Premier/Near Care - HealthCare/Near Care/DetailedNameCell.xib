@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NameCell" rowHeight="150" id="KGk-i7-Jjw" customClass="DetailedNameCell" customModule="Near_Care" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nwv-rt-ZGM" customClass="SpringImageView" customModule="Spring">
+                        <rect key="frame" x="123" y="10" width="75" height="75"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="HO8-ne-T0O"/>
+                            <constraint firstAttribute="height" constant="75" id="KXl-ac-Lq5"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="UaC-Sh-ysX" customClass="SpringLabel" customModule="Spring">
+                        <rect key="frame" x="8" y="102" width="304" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="mE8-pW-J0w"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="UaC-Sh-ysX" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="WNK-4U-7lI"/>
+                    <constraint firstItem="UaC-Sh-ysX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Y26-xP-FuH"/>
+                    <constraint firstItem="nwv-rt-ZGM" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="amV-1Y-W8c"/>
+                    <constraint firstItem="UaC-Sh-ysX" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="fbd-qM-Hbm"/>
+                    <constraint firstItem="nwv-rt-ZGM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="jel-uS-IPy"/>
+                    <constraint firstItem="UaC-Sh-ysX" firstAttribute="top" secondItem="nwv-rt-ZGM" secondAttribute="bottom" constant="5" id="kGN-Te-fq6"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="UaC-Sh-ysX" secondAttribute="bottom" constant="6.5" id="lCQ-pS-Tbp"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="kGN-Te-fq6"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="icon" destination="nwv-rt-ZGM" id="MVV-7F-gPS"/>
+                <outlet property="name" destination="UaC-Sh-ysX" id="MtC-Ng-uku"/>
+            </connections>
+            <point key="canvasLocation" x="483" y="330"/>
+        </tableViewCell>
+    </objects>
+</document>
