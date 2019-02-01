@@ -6,15 +6,15 @@ This repository contains codes of applications created/contributed by Rakesh Bal
 
 > ##### SCREENSHOTS (Click to Maximize)
 
-<a href="https://github.com/rlingaku/Hackathon/blob/master/Near%20Care/Screenshots/front.png" target="_blank">
-<img src="https://github.com/rlingaku/Hackathon/blob/master/Near%20Care/Screenshots/front.png" 
-alt="IMAGE ALT TEXT HERE" width="150" height="250" border="10" /></a><a href="https://github.com/rlingaku/Hackathon/blob/master/Near%20Care/Screenshots/list.png" target="_blank">
-<img src="https://github.com/rlingaku/Hackathon/blob/master/Near%20Care/Screenshots/list.png" 
-alt="IMAGE ALT TEXT HERE" width="150" height="250" border="10" /></a><a href="https://github.com/rlingaku/Hackathon/blob/master/Near%20Care/Screenshots/maps.png" target="_blank">
-<img src="https://github.com/rlingaku/Hackathon/blob/master/Near%20Care/Screenshots/maps.png" 
-alt="IMAGE ALT TEXT HERE" width="150" height="250" border="10" /></a><a href="https://github.com/rlingaku/Hackathon/blob/master/Near%20Care/Screenshots/hos_details.png" target="_blank">
-<img src="https://github.com/rlingaku/Hackathon/blob/master/Near%20Care/Screenshots/hos_details.png" 
-alt="IMAGE ALT TEXT HERE" width="150" height="250" border="10" /></a><a href="https://github.com/rlingaku/Hackathon/blob/master/Near%20Care/Screenshots/graph.png" target="_blank">
-<img src="https://github.com/rlingaku/Hackathon/blob/master/Near%20Care/Screenshots/graph.png" 
+<a href="https://github.com/r-b-e-e/hackathon/blob/master/Near%20Care/Screenshots/front.png" target="_blank">
+<img src="https://github.com/r-b-e-e/hackathon/blob/master/Near%20Care/Screenshots/front.png" 
+alt="IMAGE ALT TEXT HERE" width="150" height="250" border="10" /></a><a href="https://github.com/r-b-e-e/hackathon/blob/master/Near%20Care/Screenshots/list.png" target="_blank">
+<img src="https://github.com/r-b-e-e/hackathon/blob/master/Near%20Care/Screenshots/list.png" 
+alt="IMAGE ALT TEXT HERE" width="150" height="250" border="10" /></a><a href="https://github.com/r-b-e-e/hackathon/blob/master/Near%20Care/Screenshots/maps.png" target="_blank">
+<img src="https://github.com/r-b-e-e/hackathon/blob/master/Near%20Care/Screenshots/maps.png" 
+alt="IMAGE ALT TEXT HERE" width="150" height="250" border="10" /></a><a href="https://github.com/r-b-e-e/hackathon/blob/master/Near%20Care/Screenshots/hos_details.png" target="_blank">
+<img src="https://github.com/r-b-e-e/hackathon/blob/master/Near%20Care/Screenshots/hos_details.png" 
+alt="IMAGE ALT TEXT HERE" width="150" height="250" border="10" /></a><a href="https://github.com/r-b-e-e/hackathon/blob/master/Near%20Care/Screenshots/graph.png" target="_blank">
+<img src="https://github.com/r-b-e-e/hackathon/blob/master/Near%20Care/Screenshots/graph.png" 
 alt="IMAGE ALT TEXT HERE" width="150" height="250" border="10" /></a>
 <br>
